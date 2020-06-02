@@ -1,0 +1,12 @@
+<h1>Adivinar codigo:</h1>
+<form action="/game" method="post">
+  <input type="Integer" name="code" value="">
+  <input type="submit" value="code" action="/resultado">
+</form>
+
+<form action="/resultado" method="get">
+  <label> el codigo ingresado es</label>
+  <%= @code%>
+  <label> En el intento # </label>
+  <%= @try%>
+</form>
