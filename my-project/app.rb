@@ -18,6 +18,8 @@ post '/game' do
   end
   @@game.verifyVacas(@@numero_random, @code)
   @vacas = @@game.getVacas()
+  @@game.comparar(@@numero_random,@code)
+  @toros = @@game.getToros()
   erb :game
-end
 
+end
