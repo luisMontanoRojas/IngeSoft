@@ -20,4 +20,15 @@ class Game
   def getVacas()
     return @vacas.to_s
   end
+
+  def verifyVacas(secretCode, inputCode)
+    @vacas = 0
+    secret = secretCode.to_s
+    input = inputCode.to_s
+    for i in 0..3
+      if(secret.include? input[i]) && (secret[i] != input[i])
+        @vacas = @vacas + 1
+      end
+    end
+  end
 end
