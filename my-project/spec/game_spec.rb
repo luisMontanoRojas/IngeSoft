@@ -16,4 +16,10 @@ RSpec.describe "Game" do
         @@game.getCode(3456)
         expect(@@game.getTry()).to eq('2')
     end
+
+    #tests vacas
+    it 'devuelve 0 vacas' do
+        cantidadVacas = @@game.getVacas()
+        expect(cantidadVacas).to eq('0')
+    end 
 end
