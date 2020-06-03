@@ -5,7 +5,7 @@ require './lib/game'
 get '/' do
     @@game = Game.new()
     numeroRandom = NumeroRandom.new()
-    @numero_random = numeroRandom.random()
+    @@numero_random = numeroRandom.random()
     erb :autogenerado
 end
 
@@ -13,5 +13,11 @@ end
 post '/game' do
   @try = @@game.getTry()
   @code = @@game.getCode(params[:code].to_i)
+  @@game.comparar(@@numero_random,@code)
+  @toros = @@game.getToros()
   erb :game
+
 end
+
+
+
