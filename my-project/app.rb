@@ -12,7 +12,7 @@ end
 
 post '/game' do
   @try = @@game.getTry()
-  @code = @@game.getCode(params[:code].to_i)
+  @code = @@game.getCode(params[:code].to_s)
   @@game.comparar(@@numero_random,@code)
   @toros = @@game.getToros()
   erb :game
