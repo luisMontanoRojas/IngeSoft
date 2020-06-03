@@ -1,21 +1,36 @@
 class Game
-
-  @try 
+  @try
+  @vacas
   @toros 
-
   def initialize()
     @try = 0
     @toros = 0
+    @vacas = 0
   end
 
   def getCode(num)
     @try = (@try.to_i + 1)
-
     return num.to_s
   end
 
   def getTry()
     return @try.to_s
+  end
+  
+  #Vacas
+  def getVacas()
+    return @vacas.to_s
+  end
+
+  def verifyVacas(secretCode, inputCode)
+    @vacas = 0
+    secret = secretCode.to_s
+    input = inputCode.to_s
+    for i in 0..3
+      if(secret.include? input[i]) && (secret[i] != input[i])
+        @vacas = @vacas + 1
+      end
+    end
   end
   #Toros
   def getToros()
@@ -32,6 +47,5 @@ class Game
       end
     end
   end
-
 end
   
