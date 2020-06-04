@@ -13,13 +13,12 @@ post '/game' do
   @try = @@game.getTry()
   @code = @@game.getCode(params[:code].to_s)
   #falta validar cantidad de digitos ( validate(@code) )
-  if (@code == "")
-    @code = "0000"
-  end
+  @numero = @@numero_random.to_s
   @@game.verifyVacas(@@numero_random, @code)
   @vacas = @@game.getVacas()
   @@game.comparar(@@numero_random,@code)
   @toros = @@game.getToros()
-  erb :game
+  @won =   @@game.won(@code,@@numero_random)
 
+  erb :game
 end

@@ -1,7 +1,8 @@
 class Game
   @try
   @vacas
-  @toros 
+  @toros
+
   def initialize()
     @try = 0
     @toros = 0
@@ -9,6 +10,9 @@ class Game
   end
 
   def getCode(num)
+    if (num == "")
+      num = "0000"
+    end
     @try = (@try.to_i + 1)
     return num.to_s
   end
@@ -16,7 +20,7 @@ class Game
   def getTry()
     return @try.to_s
   end
-  
+
   #Vacas
   def getVacas()
     return @vacas.to_s
@@ -47,5 +51,13 @@ class Game
       end
     end
   end
+
+  def won(codigoRandom,codigoIngresado)
+    cr = codigoRandom.to_s
+    ci = codigoIngresado.to_s
+    if (cr == ci)
+      return true
+    end
+    return false
+  end
 end
-  
