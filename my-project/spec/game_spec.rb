@@ -173,4 +173,16 @@ RSpec.describe "Game" do
         result = @game.isWinner("1234")
         expect(result).to eq(false)
     end
+
+    it "deveria devolver true al perder" do
+        @game = Game.new
+        result = @game.isLoser(10)
+        expect(result).to eq(true)
+    end
+
+    it "deveria devolver false si no pierde" do
+        @game = Game.new
+        result = @game.isLoser(5)
+        expect(result).to eq(false)
+    end
 end
