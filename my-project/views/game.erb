@@ -1,11 +1,11 @@
 <h1>Adivinar codigo:</h1>
 <form action="/game" method="post">
   <input type="Integer" name="code" value="">
-  <input type="submit" value="code" action="/resultado">
+  <input type="submit" value="Adivinar" action="/resultado">
 </form>
 
 <form action="/resultado" method="get">
-    
+
     <% if @loss %>
         <h1>Perdio!</h1>
         <h3> El codigo era: </h3>   <%= @code %><br>
@@ -14,25 +14,21 @@
 
         <% if @won %>
             <h1>Gano!</h1>
-            <h3> En el intento numero: </h3>   <%= @try%>
-            <h3> El codigo era: </h3>   <%= @code %><br>
+            <h4> En el intento numero: </h4>   <%= @try%>
+            <h4> El codigo era: </h4>   <%= @code %><br>
             <a href="/" type="button" class="button">Volver a jugar!</a>
         <% else %>
-
             <label> el codigo ingresado es</label>
             <%= @code%>
             <label> En el intento # </label>
             <%= @try%>
             <br>
             <br>
-                <!--mostrar vacas-->
             <label> cantidad de vacas: </label>
             <%= @vacas%>
-                <!---->
             <br>
             <label>Cantidad Toros:</label>
             <%=@toros%>
-
         <% end %>
     <% end %>
 
