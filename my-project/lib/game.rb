@@ -52,6 +52,13 @@ class Game
     end
   end
 
+  def loss(try)
+    if(try.to_i >= 10)
+      return true
+    end
+    return false
+  end
+
   def won(codigoRandom,codigoIngresado)
     cr = codigoRandom.to_s
     ci = codigoIngresado.to_s
@@ -60,4 +67,5 @@ class Game
     end
     return false
   end
+
 end

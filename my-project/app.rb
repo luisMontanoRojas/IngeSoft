@@ -19,6 +19,7 @@ post '/game' do
   @@game.comparar(@@numero_random,@code)
   @toros = @@game.getToros()
   @won =   @@game.won(@code,@@numero_random)
+  @loss = @@game.loss(@try)
 
   erb :game
 end
