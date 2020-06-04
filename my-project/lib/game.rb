@@ -13,6 +13,7 @@ class Game
 
   def random()
     @secretCode = 1000 + rand(8999)
+    @secretCode = @secretCode.to_s
   end
 
   def setSecretCode(newSecretCode)
@@ -24,17 +25,41 @@ class Game
     @toros = 0
     secretC = @secretCode.to_s
     inputC = inputCode.to_s
-    if (inputCode != "")
+    if (isInputCodeValid?(inputC))
       for i in 0..3
-        if (secretC.include? inputC[i]) && (secretC[i] != inputC[i])
+        if (thereAreVacas?(inputC, i))
           @vacas = @vacas + 1          
-        elsif (secretC[i] == inputC[i])
+        elsif (thereAreToros?(inputC, i))
           @toros = @toros + 1          
         end
       end
       @try = (@try.to_i + 1)
     end
   end  
+
+  def isInputCodeValid?(code)
+    if(code != "") && (code.length() == 4)
+      return true
+    else
+      return false
+    end
+  end
+
+  def thereAreVacas?(inputC,pos)
+    if (@secretCode.include? inputC[pos]) && (@secretCode[pos] != inputC[pos])
+      return true
+    else
+      return false
+    end
+  end
+
+  def thereAreToros?(inputC,pos)
+    if (@secretCode[pos] == inputC[pos])
+      return true
+    else
+      return false
+    end
+  end
 
   def isLoser(try)
     if(try.to_i >= 10)
