@@ -1,120 +1,176 @@
 require 'game.rb'
 
 RSpec.describe "Game" do
-    it 'devuelve el codigo ingresado 1234' do
-        @game = Game.new
-        expect(@game.getCode(1234)).to eq('1234')
-    end
+    @@game = Game.new
+    it 'devuelve numero random de longitud 4' do
+        @@game.random()
+        @numeroRandom = @@game.getSecretCode()
+        expect(@numeroRandom.size()).to eq(4)
+     end
 
-     @@game = Game.new
-    it 'devuelve el intento 1 con el codigo 1234' do
-        @@game.getCode(1234)
+    it 'devuelve el intento 1 con 1234 y 1234' do
+        @@game.random()
+        @@game.verifyInputCode("1234")
         expect(@@game.getTry()).to eq('1')
     end
 
-    it 'devuelve el intengo 2 con el codigo 3456' do
-        @@game.getCode(3456)
+    it 'devuelve el intengo 2 con el codigo 3456 y 3456' do
+        @@game.random()
+        @@game.verifyInputCode("3456")
         expect(@@game.getTry()).to eq('2')
     end
     #tests vacas
     it 'devuelve 0 vacas' do
-        cantidadVacas = @@game.getVacas()
+        @game = Game.new
+        cantidadVacas = @game.getVacas()
         expect(cantidadVacas).to eq('0')
     end
 
     it 'devuelve 2 vacas' do
-        @@game.verifyVacas("1234","4625")
-        cantidadVacas = @@game.getVacas()
+        @game = Game.new
+        @game.setSecretCode("1234")
+        @game.verifyInputCode("4625")
+        cantidadVacas = @game.getVacas()
         expect(cantidadVacas).to eq('2')
     end
 
     it 'devuelve 1 vaca aunque el numero se repita 2 veces en el codigo secreto' do
-        @@game.verifyVacas("1231","0100")
-        cantidadVacas = @@game.getVacas()
+        @game = Game.new
+        @game.setSecretCode("1231")
+
+        @game.verifyInputCode("0100")
+        cantidadVacas = @game.getVacas()
         expect(cantidadVacas).to eq('1')
     end
 
     it 'devuelte 0 vacas con codigos iguales' do
-        @@game.verifyVacas("1234","1234")
-        cantidadVacas = @@game.getVacas()
+        @game = Game.new
+        @game.setSecretCode("1234")
+
+        @game.verifyInputCode("1234")
+        cantidadVacas = @game.getVacas()
         expect(cantidadVacas).to eq('0')
     end
 
-    it 'devuelve 1 vaca con 0000 y 3330 ' do
-        @@game.verifyVacas(0000,3330)
-        cantidadVacas = @@game.getVacas()
-        expect(cantidadVacas).to eq('1')
+    it 'devuelve 0 vaca con 0000 y 3330 ' do
+        @game = Game.new
+        @game.setSecretCode("0000")
+
+        @game.verifyInputCode("3330")
+        cantidadVacas = @game.getVacas()
+        expect(cantidadVacas).to eq('0')
     end
 
-    it 'devuelve 1 vaca con 3330 y 0000 ' do
-        @@game.verifyVacas(0000,3330)
-        cantidadVacas = @@game.getVacas()
-        expect(cantidadVacas).to eq('1')
+    it 'devuelve 3 vaca con 3330 y 0000 ' do
+        @game = Game.new
+        @game.setSecretCode("3330")
+
+        @game.verifyInputCode("0000")
+        cantidadVacas = @game.getVacas()
+        expect(cantidadVacas).to eq('3')
     end
     it 'devuelce 4 vacas con 1234 y 4123' do
-        @@game.verifyVacas(1234,4123)
-        cantidadVacas = @@game.getVacas()
+        @game = Game.new
+        @game.setSecretCode("1234")
+
+        @game.verifyInputCode("4123")
+        cantidadVacas = @game.getVacas()
         expect(cantidadVacas).to eq('4')
     end
 
     #test Toros
     it 'devuelve 0 toros ' do
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("1234")
+
+        cantToros = @game.getToros()
         expect(cantToros).to eq('0')
     end
     it 'devuelve 2 toros ' do
-        @@game.comparar('5692','1690')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("5692")
+
+        @game.verifyInputCode('1690')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('2')
     end
     it 'devuelve 4 toros ' do
-        @@game.comparar('1690','1690')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("1690")
+
+        @game.verifyInputCode('1690')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('4')
     end
     it 'devuelve 0 toros ' do
-        @@game.comparar('4321','1234')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("4321")
+
+        @game.verifyInputCode('1234')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('0')
     end
     it 'devuelve 3 toros ' do
-        @@game.comparar('1234','1230')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("1234")
+
+        @game.verifyInputCode('1230')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('3')
     end
     it 'devuelve 2 toros ' do
-        @@game.comparar('1034','0534')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("1034")
+
+        @game.verifyInputCode('0534')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('2')
     end
     it 'devuelve 3 toros ' do
-        @@game.comparar('0034','0134')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("0034")
+
+        @game.verifyInputCode('0134')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('3')
     end
     it 'devuelve 1 toros ' do
-        @@game.comparar('0030','5134')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("0030")
+
+        @game.verifyInputCode('5134')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('1')
     end
     it 'devuelve 3 toros ' do
-        @@game.comparar('4034','0134')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("4034")
+
+        @game.verifyInputCode('0134')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('2')
     end
     it 'devuelve 3 toros ' do
-        @@game.comparar('0010','0000')
-        cantToros = @@game.getToros()
+        @game = Game.new
+        @game.setSecretCode("0010")
+
+        @game.verifyInputCode('0000')
+        cantToros = @game.getToros()
         expect(cantToros).to eq('3')
     end
 
     it "deberia devolver true si gano" do
-      result = @@game.won(1234, 1234)
-      expect(result).to eq(true)
+        @game = Game.new
+        @game.setSecretCode("1234")
+        result = @game.isWinner("1234")
+        expect(result).to eq(true)
     end
 
-    it "deberia devolver false si perdio" do
-      result = @@game.won(4567, 1234)
-      expect(result).to eq(false)
+    it "deberia devolver false si aun no ganó" do
+        @game = Game.new
+        @game.setSecretCode("4567")
+
+        result = @game.isWinner("1234")
+        expect(result).to eq(false)
     end
 end

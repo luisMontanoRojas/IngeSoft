@@ -1,39 +1,38 @@
-<h1>Adivinar codigo:</h1>
-<form action="/game" method="post">
-  <input type="Integer" name="code" value="">
-  <input type="submit" value="code" action="/resultado">
-</form>
-
-<form action="/resultado" method="get">
-    
-    <% if @loss %>
-        <h1>Perdio!</h1>
-        <h3> El codigo era: </h3>   <%= @code %><br>
-        <a href="/" type="button" class="button">Volver a jugar!</a>
-    <% else %>
-
-        <% if @won %>
-            <h1>Gano!</h1>
-            <h3> En el intento numero: </h3>   <%= @try%>
-            <h3> El codigo era: </h3>   <%= @code %><br>
-            <a href="/" type="button" class="button">Volver a jugar!</a>
-        <% else %>
-
-            <label> el codigo ingresado es</label>
-            <%= @code%>
-            <label> En el intento # </label>
-            <%= @try%>
-            <br>
-            <br>
-                <!--mostrar vacas-->
-            <label> cantidad de vacas: </label>
-            <%= @vacas%>
-                <!---->
-            <br>
-            <label>Cantidad Toros:</label>
-            <%=@toros%>
-
-        <% end %>
-    <% end %>
-
-</form>
+<% if @isLoser %>
+  <form action="/" method="get">
+    <h1>Perdió!</h1>
+    <h3> El codigo era: <%= @@numero_random %> </h3>
+    <br>
+    <input type="submit" value="volver a jugar">
+  </form>
+<% else %>
+  <% if @isWinner %>
+    <form action="/" method="get">
+      <h1>Gano!</h1>
+      <h3> En el intento numero: <%= @try%></h3>
+      <br>
+      <h3> El codigo era: <%= @@numero_random %></h3>
+      <input type="submit" value="volver a jugar">
+    </form>
+  <% else %>
+    <h1>Adivinar codigo:</h1>
+    <form action="/game" method="post">
+      <input type="Integer" name="code" value=""><br>
+      <br>
+      <input type="submit" value="verificar" action="/resultado">
+    </form>
+    <form action="/resultado" method="get">
+      <label> el codigo ingresado es</label>
+      <%= @code%>
+      <label> En el intento # </label>
+      <%= @try%>
+      <br>
+      <br>
+      <label> cantidad de vacas: </label>
+      <%= @vacas%>
+      <br>
+      <label>Cantidad Toros:</label>
+      <%=@toros%>
+    </form>
+  <% end %>
+<% end %>

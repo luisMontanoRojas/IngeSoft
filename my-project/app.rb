@@ -1,25 +1,22 @@
 require 'sinatra'
-require './lib/numeroRandom'
 require './lib/game'
+
+@@game
 
 get '/' do
     @@game = Game.new()
-    numeroRandom = NumeroRandom.new()
-    @@numero_random = numeroRandom.random()
+    @@game.random()
+    @@numero_random = @@game.getSecretCode()
     erb :autogenerado
 end
 
 post '/game' do
+  @inputCode = params[:code].to_s
+  @@game.verifyInputCode(@inputCode)
   @try = @@game.getTry()
-  @code = @@game.getCode(params[:code].to_s)
-  #falta validar cantidad de digitos ( validate(@code) )
-  @numero = @@numero_random.to_s
-  @@game.verifyVacas(@@numero_random, @code)
-  @vacas = @@game.getVacas()
-  @@game.comparar(@@numero_random,@code)
   @toros = @@game.getToros()
-  @won =   @@game.won(@code,@@numero_random)
-  @loss = @@game.loss(@try)
-
+  @vacas = @@game.getVacas()
+  @isWinner = @@game.isWinner(@inputCode)
+  @isLoser = @@game.isLoser(@try)
   erb :game
 end
