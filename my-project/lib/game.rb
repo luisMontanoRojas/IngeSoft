@@ -1,10 +1,14 @@
 class Game
+
+
   @try
   @vacas
   @toros
   @secretCode
+  @player1 
+  @player2 
 
-  def initialize()
+  def initializer()
     @try = 0
     @toros = 0
     @vacas = 0
@@ -14,6 +18,16 @@ class Game
   def random()
     @secretCode = 1000 + rand(8999)
     @secretCode = @secretCode.to_s
+  end
+
+  def setPlayer1(name)
+    @player1= Player.new()
+    @player1.setName(name)
+  end
+
+  def setPlayer2(name)
+    @player2= Player.new()
+    @player2.setName(name)
   end
 
   def setSecretCode(newSecretCode)

@@ -1,14 +1,21 @@
+<div align="center" id="nameId">
+  <label>Ingrese el nombre del jugador: </label><br>
+  <input type="Text" name="name2" value="">
+</div>
 <% if @isLoser %>
   <form action="/" method="get">
     <h1>Perdió!</h1>
     <h3> El codigo era: <%= @@numero_random %> </h3>
     <br>
+    <h3> Gano: </>
+    <%=@name%>
     <input type="submit" value="volver a jugar">
   </form>
 <% else %>
   <% if @isWinner %>
     <form action="/" method="get">
       <h1>Gano!</h1>
+      <%= @name1%>
       <h3> En el intento numero: <%= @try%></h3>
       <br>
       <h3> El codigo era: <%= @@numero_random %></h3>
@@ -36,3 +43,4 @@
     </form>
   <% end %>
 <% end %>
+
