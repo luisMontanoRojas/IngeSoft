@@ -1,7 +1,7 @@
 <% if @isLoser %>
   <form action="/" method="get">
     <h1>Perdió!</h1>
-    <h3> El codigo era: <%= @@numero_random %> </h3>
+    <h3> El codigo era: <%= @@numero_teclado %> </h3>
     <br>
     <input type="submit" value="volver a jugar">
   </form>
@@ -11,7 +11,7 @@
       <h1>Gano!</h1>
       <h3> En el intento numero: <%= @try%></h3>
       <br>
-      <h3> El codigo era: <%= @@numero_random %></h3>
+      <h3> El codigo era: <%= @@numero_teclado %></h3>
       <input type="submit" value="volver a jugar">
     </form>
   <% else %>

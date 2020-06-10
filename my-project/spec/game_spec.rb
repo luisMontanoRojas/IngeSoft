@@ -185,4 +185,11 @@ RSpec.describe "Game" do
         result = @game.isLoser(5)
         expect(result).to eq(false)
     end
+    it 'ver si el codigo ingresado es igual que el codigo adivinado' do
+        @game = Game.new
+        @game.enterCode("1231")
+
+       
+        
+    end
 end
