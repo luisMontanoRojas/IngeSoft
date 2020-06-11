@@ -5,8 +5,7 @@ require './lib/player'
 
 get '/' do
     @@game = Game.new()
-    @name=params[:name].to_s
-    puts(@name)
+    @name=params{:name}
     @@game.setPlayer1(@name)
     @@game.random()
     @@numero_random = @@game.getSecretCode()
@@ -14,9 +13,10 @@ get '/' do
 end
 
 post '/game' do
-  @name=params[:name2].to_s
-  puts(@name)
-  @@game.setPlayer2(@name)
+  @name1=params[:name2].to_s
+  @@game.setPlayer2(@name1)
+  puts("el nombre es"+@@name.to_s)
+  puts "el nombre es"+params[:name2].to_s
   @inputCode = params[:code].to_s
   @@game.verifyInputCode(@inputCode)
   @try = @@game.getTry()
