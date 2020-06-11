@@ -185,4 +185,10 @@ RSpec.describe "Game" do
         result = @game.isLoser(5)
         expect(result).to eq(false)
     end
+    it 'devuelve gano con 1234 y 1234' do
+        @game = Game.new
+        @game.setSecretCode("1234")
+        result = @game.isWinner("1234")
+        expect(result).to eq(true)
+    end
 end
