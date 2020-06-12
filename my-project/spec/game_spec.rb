@@ -191,4 +191,35 @@ RSpec.describe "Game" do
         result = @game.isWinner("1234")
         expect(result).to eq(true)
     end
+
+    it 'devuelve 4 la longitud del codigo cuando el nivel es basico' do
+        @game = Game.new
+        @game.setDifficult(4)
+        @game.setSecretCode("1234")
+        result = @game.getSecretCode().size()
+        expect(result).to eq(4)
+    end
+
+    it 'devuelve 6 la longitud del codigo cuando el nivel es medio' do
+        @game = Game.new
+        @game.setDifficult(6)
+        @game.setSecretCode("123456")
+        result = @game.getSecretCode().size()
+        expect(result).to eq(6)
+    end
+
+    it 'devuelve 8 la longitud del codigo cuando el nivel es dificil' do
+        @game = Game.new
+        @game.setDifficult(8)
+        @game.setSecretCode("12345678")
+        result = @game.getSecretCode().size()
+        expect(result).to eq(8)
+    end
+
+    it 'devuelve 8 la longitud del codigo cuando el nivel es dificil' do
+        @game = Game.new
+        @game.setDifficult(8)
+        expect(@game.getDifficult()).to eq(8)
+    end
+    
 end
