@@ -19,3 +19,6 @@ D, [2020-06-11T22:54:32.139362 #8348] DEBUG -- : REQUESTING PAGE: POST /inputCod
 D, [2020-06-11T22:55:01.005106 #4168] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2020-06-11T22:55:01.451639 #4168] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2020-06-11T22:55:01.544383 #4168] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-11T23:06:18.291022 #8036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T23:06:18.602540 #8036] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-11T23:06:18.679656 #8036] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
