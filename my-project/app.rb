@@ -14,6 +14,7 @@ get '/' do
 end
 
 post '/inputCoding' do
+  @playerName = params[:name]
   $codeToInput = params[:numberToInput].to_s
   @@numero_random = $codeToInput
   @@game.setSecretCode(@@numero_random)
