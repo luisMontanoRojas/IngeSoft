@@ -1,3 +1,21 @@
 # Logfile created on 2020-06-11 13:41:30 -0400 by logger.rb/66358
 D, [2020-06-11T13:41:30.453754 #5956] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2020-06-11T13:41:31.292078 #5956] DEBUG -- : REQUESTING PAGE: GET /saludar with {} and HTTP headers {}
+D, [2020-06-11T14:47:02.336819 #1012] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:56:25.448491 #8372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:57:06.818431 #1692] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:58:01.460571 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:59:00.429153 #10556] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T15:00:51.765676 #6636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:01:14.279074 #5072] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:03:43.342215 #10684] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:05:57.552888 #4548] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:07:45.781265 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:30:34.855570 #8064] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:50:17.674943 #11104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:53:44.757909 #5416] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:54:31.652387 #8348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:54:32.139362 #8348] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-11T22:55:01.005106 #4168] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:55:01.451639 #4168] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-11T22:55:01.544383 #4168] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
