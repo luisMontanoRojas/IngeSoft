@@ -1,0 +1,52 @@
+# Logfile created on 2020-06-11 13:41:30 -0400 by logger.rb/66358
+D, [2020-06-11T13:41:30.453754 #5956] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T13:41:31.292078 #5956] DEBUG -- : REQUESTING PAGE: GET /saludar with {} and HTTP headers {}
+D, [2020-06-11T14:47:02.336819 #1012] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:56:25.448491 #8372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:57:06.818431 #1692] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:58:01.460571 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T14:59:00.429153 #10556] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T15:00:51.765676 #6636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:01:14.279074 #5072] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:03:43.342215 #10684] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:05:57.552888 #4548] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:07:45.781265 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:30:34.855570 #8064] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:50:17.674943 #11104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:53:44.757909 #5416] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:54:31.652387 #8348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:54:32.139362 #8348] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-11T22:55:01.005106 #4168] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T22:55:01.451639 #4168] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-11T22:55:01.544383 #4168] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-11T23:06:18.291022 #8036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-11T23:06:18.602540 #8036] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-11T23:06:18.679656 #8036] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:15:22.906353 #11648] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:15:23.087859 #11648] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:15:23.131710 #11648] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:15:23.163623 #11648] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:19:51.074188 #6688] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:19:51.224832 #6688] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:19:51.277612 #6688] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:19:51.307016 #6688] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:20:22.777539 #7348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:20:23.061000 #7348] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:20:23.070404 #7348] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:20:23.149983 #7348] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:35:12.618204 #11620] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:35:12.795320 #11620] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:35:12.836090 #11620] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:35:12.881250 #11620] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:35:32.285747 #3788] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:35:32.477372 #3788] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:35:32.514100 #3788] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:35:32.540107 #3788] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:37:17.099694 #1900] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:37:17.307330 #1900] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:37:17.338338 #1900] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:37:17.389449 #1900] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+D, [2020-06-12T01:38:21.417340 #9308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:38:21.587678 #9308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-12T01:38:21.637469 #9308] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-12T01:38:21.664816 #9308] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}

@@ -8,12 +8,14 @@ class Game
   @secretCode
   @player1
   @player2 
+  @difficulty
 
-  def initializer()
+  def initialize()
     @try = 0
     @toros = 0
     @vacas = 0
     @secretCode = 0
+    @difficulty = 4
   end
 
   def random()
@@ -42,7 +44,7 @@ class Game
     secretC = @secretCode.to_s
     inputC = inputCode.to_s
     if (isInputCodeValid?(inputC))
-      for i in 0..3
+      for i in 0..(@difficulty-1)
         if (thereAreVacas?(inputC, i))
           @vacas = @vacas + 1          
         elsif (thereAreToros?(inputC, i))
@@ -54,11 +56,22 @@ class Game
   end  
 
   def isInputCodeValid?(code)
-    if(code != "") && (code.length() == 4)
-      return true
-    else
-      return false
+    if(@difficulty == 4)
+      if(code != "") && (code.length() == 4)
+        return true
+      end
     end
+    if(@difficulty == 6)
+      if(code != "") && (code.length() == 6)
+        return true
+      end
+    end
+    if(@difficulty == 8)
+      if(code != "") && (code.length() == 8)
+        return true
+      end
+    end
+    return false
   end
 
   def thereAreVacas?(inputC,pos)
@@ -113,5 +126,13 @@ class Game
 
   def getPlayer2()
     return @player2.getName()      
+
+    def setDifficult(difficult)
+    @difficulty = difficult
   end
+
+  def getDifficult()
+    return @difficulty.to_i
+  end
+
 end
