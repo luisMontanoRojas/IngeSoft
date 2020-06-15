@@ -32,7 +32,15 @@
     <form action="/game" method="post">
       <%if (@@game.getMode()=='N')%>
         <input type="text" name="code" value="" maxlength=<%=@@game.getDifficult()%>>
-        <br>
+        <%if (@@game.getDifficult() == 4)%>
+          <p>*Usted debe ingesar un numero de 4 digitos.</p>
+        <%end%>
+        <%if (@@game.getDifficult() == 6)%>
+          <p>*Usted debe ingesar un numero de 6 digitos.</p>
+        <%end%>
+        <%if (@@game.getDifficult() == 8)%>
+          <p>*Usted debe ingesar un numero de 8 digitos.</p>
+        <%end%>
         <br>
       <%elsif(@@game.getMode()=='C')%>
         <div>
@@ -150,13 +158,12 @@
       <input type="submit" value="verificar" action="/resultado">
     </form>
     <form action="/resultado" method="get">
-      <label> el codigo ingresado es</label>
-      <%= @code%>
-      <label> En el intento # </label>
+      <br>
+      <label>En el intento # </label>
       <%= @try%>
       <br>
       <br>
-      <label> cantidad de vacas: </label>
+      <label>Cantidad de vacas: </label>
       <%= @vacas%>
       <br>
       <label>Cantidad Toros:</label>
