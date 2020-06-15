@@ -139,4 +139,42 @@ class Game
   def getDifficult()
     return @difficult.to_i
   end
+
+  def getCodeInColors()
+    res = ""
+    for i in 0..(@difficult-1) do
+      if(@secretCode[i] == "0")
+        res = res + " rojo"
+      end
+      if(@secretCode[i] == "1")
+        res = res + " amarillo"
+      end
+      if(@secretCode[i] == "2")
+        res = res + " verde"
+      end
+      if(@secretCode[i] == "3")
+        res = res + " azul"
+      end
+      if(@secretCode[i] == "4")
+        res = res + " naranja"
+      end
+      if(@secretCode[i] == "5")
+        res = res + " negro"
+      end
+      if(@secretCode[i] == "6")
+        res = res + " blanco"
+      end
+      if(@secretCode[i] == "7")
+        res = res + " cafe"
+      end
+      if(@secretCode[i] == "8")
+        res = res + " celeste"
+      end
+      if(@secretCode[i] == "9")
+        res = res + " morado"
+      end
+    end
+    return res.to_s
+  end
 end
+
