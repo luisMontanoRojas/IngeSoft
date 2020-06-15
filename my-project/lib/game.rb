@@ -1,3 +1,4 @@
+require "./lib/player.rb"
 class Game
 
 
@@ -5,7 +6,7 @@ class Game
   @vacas
   @toros
   @secretCode
-  @player1 
+  @player1
   @player2 
 
   def initializer()
@@ -21,12 +22,13 @@ class Game
   end
 
   def setPlayer1(name)
-    @player1= Player.new()
+    @player1 = Player.new()
     @player1.setName(name)
   end
 
   def setPlayer2(name)
-    @player2= Player.new()
+    @player2 = Player.new() 
+
     @player2.setName(name)
   end
 
@@ -103,5 +105,13 @@ class Game
 
   def getToros()
     return @toros.to_s
+  end
+
+  def getPlayer1()
+    return @player1.getName()      
+  end
+
+  def getPlayer2()
+    return @player2.getName()      
   end
 end

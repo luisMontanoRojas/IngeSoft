@@ -17,7 +17,7 @@ class Player
     end
 
     def getName()
-        return @name
+        return @name.to_s
     end
 
     def getPlayer()
@@ -28,7 +28,7 @@ class Player
     end
 
     def getScore()
-        return @score
+        return @score.to_i
     end
 
 end
