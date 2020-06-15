@@ -3,18 +3,49 @@ class Game
   @vacas
   @toros
   @secretCode
-  @difficulty
+  @difficult
+  @mode
+  @maxAttempts
+
   def initialize()
+    @maxAttempts = 10
     @try = 0
     @toros = 0
     @vacas = 0
     @secretCode = 0
-    @difficulty = 4
+    @difficult = 4
+    @mode = 'N'
   end
 
+  def getMaxAttempts()
+    return @maxAttempts
+  end
+
+  def setMaxAttempts(newMaxAttempts)
+    @maxAttempts = newMaxAttempts
+  end
+
+  def setMode(newMode)
+    @mode = newMode
+  end
+
+  def getMode()
+    return @mode
+  end
+  
   def random()
-    @secretCode = 1000 + rand(8999)
-    @secretCode = @secretCode.to_s
+    if(@difficult == 4)
+      @secretCode = 1000 + rand(8999)
+      @secretCode = @secretCode.to_s
+    end
+    if(@difficult == 6)
+      @secretCode = 1000 + rand(899999)
+      @secretCode = @secretCode.to_s
+    end
+    if(@difficult == 8)
+      @secretCode = 1000 + rand(89999999)
+      @secretCode = @secretCode.to_s
+    end
   end
 
   def setSecretCode(newSecretCode)
@@ -27,7 +58,7 @@ class Game
     secretC = @secretCode.to_s
     inputC = inputCode.to_s
     if (isInputCodeValid?(inputC))
-      for i in 0..(@difficulty-1)
+      for i in 0..(@difficult-1)
         if (thereAreVacas?(inputC, i))
           @vacas = @vacas + 1          
         elsif (thereAreToros?(inputC, i))
@@ -39,17 +70,17 @@ class Game
   end  
 
   def isInputCodeValid?(code)
-    if(@difficulty == 4)
+    if(@difficult == 4)
       if(code != "") && (code.length() == 4)
         return true
       end
     end
-    if(@difficulty == 6)
+    if(@difficult == 6)
       if(code != "") && (code.length() == 6)
         return true
       end
     end
-    if(@difficulty == 8)
+    if(@difficult == 8)
       if(code != "") && (code.length() == 8)
         return true
       end
@@ -74,7 +105,7 @@ class Game
   end
 
   def isLoser(try)
-    if(try.to_i >= 10)
+    if(try.to_i >= @maxAttempts)
       return true
     end
     return false
@@ -103,9 +134,9 @@ class Game
     return @toros.to_s
   end
   def setDifficult(difficult)
-    @difficulty = difficult
+    @difficult = difficult
   end
   def getDifficult()
-    return @difficulty.to_i
+    return @difficult.to_i
   end
 end

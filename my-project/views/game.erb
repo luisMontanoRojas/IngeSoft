@@ -1,7 +1,7 @@
 <% if @isLoser %>
   <form action="/" method="get">
     <h1>Perdió!</h1>
-    <h3> El codigo era: <%= @@numero_random %> </h3>
+    <h3> El codigo era: <%= @@game.getSecretCode() %> </h3>
     <br>
     <input type="submit" value="volver a jugar">
   </form>
@@ -11,13 +11,128 @@
       <h1>Gano!</h1>
       <h3> En el intento numero: <%= @try%></h3>
       <br>
-      <h3> El codigo era: <%= @@numero_random %></h3>
+      <h3> El codigo era: <%= @@game.getSecretCode() %></h3>
       <input type="submit" value="volver a jugar">
     </form>
   <% else %>
     <h1>Adivinar codigo:</h1>
     <form action="/game" method="post">
-      <input type="Integer" name="code" value=""><br>
+      <%if (@@game.getMode()=='N')%>
+        <input type="text" name="code" value="" maxlength=<%=@@game.getDifficult()%>>
+        <br>
+        <br>
+      <%elsif(@@game.getMode()=='C')%>
+        <div>
+          <!--COLOR 1-->
+          <select name="color1" id="color1">
+            <option value="0">Rojo</option>
+            <option value="1">Amarillo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+            <option value="4">Naranja</option>
+            <option value="5">Negro</option>
+            <option value="6">Blanco</option>
+            <option value="7">Cafe</option>
+            <option value="8">Celeste</option>
+            <option value="9">Morado</option>
+          </select>
+          <!--COLOR 2-->
+          <select name="color2" id="color2">
+            <option value="0">Rojo</option>
+            <option value="1">Amarillo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+            <option value="4">Naranja</option>
+            <option value="5">Negro</option>
+            <option value="6">Blanco</option>
+            <option value="7">Cafe</option>
+            <option value="8">Celeste</option>
+            <option value="9">Morado</option>
+          </select>
+          <!--COLOR 3-->
+          <select name="color3" id="color3">
+            <option value="0">Rojo</option>
+            <option value="1">Amarillo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+            <option value="4">Naranja</option>
+            <option value="5">Negro</option>
+            <option value="6">Blanco</option>
+            <option value="7">Cafe</option>
+            <option value="8">Celeste</option>
+            <option value="9">Morado</option>
+          </select>
+          <!--COLOR 4-->
+          <select name="color4" id="color4">
+            <option value="0">Rojo</option>
+            <option value="1">Amarillo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+            <option value="4">Naranja</option>
+            <option value="5">Negro</option>
+            <option value="6">Blanco</option>
+            <option value="7">Cafe</option>
+            <option value="8">Celeste</option>
+            <option value="9">Morado</option>
+          </select>
+          <%if(@@game.getDifficult()==6 || @@game.getDifficult() == 8)%>
+            <!--COLOR 5-->
+            <select name="color5" id="color5">
+              <option value="0">Rojo</option>
+              <option value="1">Amarillo</option>
+              <option value="2">Verde</option>
+              <option value="3">Azul</option>
+              <option value="4">Naranja</option>
+              <option value="5">Negro</option>
+              <option value="6">Blanco</option>
+              <option value="7">Cafe</option>
+              <option value="8">Celeste</option>
+              <option value="9">Morado</option>
+            </select>
+            <!--COLOR 6-->
+            <select name="color6" id="color6">
+              <option value="0">Rojo</option>
+              <option value="1">Amarillo</option>
+              <option value="2">Verde</option>
+              <option value="3">Azul</option>
+              <option value="4">Naranja</option>
+              <option value="5">Negro</option>
+              <option value="6">Blanco</option>
+              <option value="7">Cafe</option>
+              <option value="8">Celeste</option>
+              <option value="9">Morado</option>
+            </select>
+          <%end%>
+          <%if(@@game.getDifficult()==8)%>
+            <!--COLOR 7-->
+            <select name="color7" id="color7">
+              <option value="0">Rojo</option>
+              <option value="1">Amarillo</option>
+              <option value="2">Verde</option>
+              <option value="3">Azul</option>
+              <option value="4">Naranja</option>
+              <option value="5">Negro</option>
+              <option value="6">Blanco</option>
+              <option value="7">Cafe</option>
+              <option value="8">Celeste</option>
+              <option value="9">Morado</option>
+            </select>
+            <!--COLOR 8-->
+            <select name="color8" id="color8">
+              <option value="0">Rojo</option>
+              <option value="1">Amarillo</option>
+              <option value="2">Verde</option>
+              <option value="3">Azul</option>
+              <option value="4">Naranja</option>
+              <option value="5">Negro</option>
+              <option value="6">Blanco</option>
+              <option value="7">Cafe</option>
+              <option value="8">Celeste</option>
+              <option value="9">Morado</option>
+            </select>
+          <%end%>
+        </div>
+      <%end%>
       <br>
       <input type="submit" value="verificar" action="/resultado">
     </form>

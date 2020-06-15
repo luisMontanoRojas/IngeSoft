@@ -1,0 +1,18 @@
+<form action="/game" method="post">
+
+    <h2>Ingrese el nombre del jugador 1</h2>
+    <input type="text"  name="namePlayer1">
+
+    <%if (@@game.getMode() == 'N')%>
+
+        <p> El codigo numerico fue generado de forma aleatoria </p>
+
+    <%elsif (@@game.getMode() == 'C')%>
+
+        <p> El codigo de colores fue generado de forma aleatoria </p>
+
+    <%end%>
+
+    <input type="submit" value="JUGAR!">
+
+</form>
