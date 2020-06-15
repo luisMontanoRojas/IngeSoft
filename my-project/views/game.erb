@@ -1,17 +1,30 @@
 <% if @isLoser %>
   <form action="/" method="get">
-    <h1>Perdió!</h1>
-    <h3> El codigo era: <%= @@game.getSecretCode() %> </h3>
+    <h2>Perdiste <%=@@namePlayer1%> :(</h2>
+    <%if ($numberPlayers == 1)%>
+      <h1>Gano cpu!</h1>
+    <%else%>
+      <h1>Gano <%=@@namePlayer2%>!</h1>
+    <%end%>
+    <%if (@@game.getMode() == 'C')%>
+      <h3> El codigo era: <%= @@game.getCodeInColors() %> </h3>
+    <%else%>
+      <h3> El codigo era: <%= @@game.getSecretCode() %> </h3>
+    <%end%>
     <br>
     <input type="submit" value="volver a jugar">
   </form>
 <% else %>
   <% if @isWinner %>
     <form action="/" method="get">
-      <h1>Gano!</h1>
+      <h1>Felicidades <%=@@namePlayer1%> ganaste!</h1>
       <h3> En el intento numero: <%= @try%></h3>
       <br>
-      <h3> El codigo era: <%= @@game.getSecretCode() %></h3>
+      <%if (@@game.getMode() == 'C')%>
+        <h3> El codigo era: <%= @@game.getCodeInColors() %> </h3>
+      <%else%>
+        <h3> El codigo era: <%= @@game.getSecretCode() %> </h3>
+      <%end%>
       <input type="submit" value="volver a jugar">
     </form>
   <% else %>
