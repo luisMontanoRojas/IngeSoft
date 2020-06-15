@@ -5,6 +5,17 @@
     <div>
       <h2> Ingresa el codigo secreto: </h2>
       <input type="text"  name="inputNumber" maxlength=<%=@@game.getDifficult()%>>
+
+      <%if (@@game.getDifficult() == 4)%>
+        <p>*Usted debe ingesar un numero de 4 digitos.</p>
+      <%end%>
+      <%if (@@game.getDifficult() == 6)%>
+        <p>*Usted debe ingesar un numero de 6 digitos.</p>
+      <%end%>
+      <%if (@@game.getDifficult() == 8)%>
+        <p>*Usted debe ingesar un numero de 8 digitos.</p>
+      <%end%>
+
     </div>
   <%elsif (@@game.getMode() == 'C')%>
     <div>
