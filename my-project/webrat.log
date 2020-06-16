@@ -50,5 +50,887 @@ D, [2020-06-12T01:38:21.417340 #9308] DEBUG -- : REQUESTING PAGE: GET / with {} 
 D, [2020-06-12T01:38:21.587678 #9308] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2020-06-12T01:38:21.637469 #9308] DEBUG -- : REQUESTING PAGE: POST /inputCoding with {"numberToInput"=>"1234", "dificultad"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2020-06-12T01:38:21.664816 #9308] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/inputCoding"}
+<<<<<<< HEAD
+D, [2020-06-15T18:29:27.027446 #2880] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-15T18:29:27.286752 #2880] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-15T18:30:16.232781 #8232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-15T18:58:37.323426 #13660] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-15T18:59:45.668603 #12972] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-15T19:10:05.239951 #9088] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:11:12.290728 #9784] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:11:55.342392 #14772] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:16:22.180128 #7220] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:17:45.614572 #13628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:27:10.831078 #13364] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:31:20.140401 #7220] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:41:05.794719 #1060] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T19:44:51.195017 #2056] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:25:11.307723 #11256] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:27:28.229912 #7244] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:28:35.357108 #10480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:29:20.945491 #8608] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:29:52.175284 #4744] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:29:52.286590 #4744] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:31:10.070141 #10864] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:31:10.178297 #10864] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:31:10.193367 #10864] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:34:56.747839 #3196] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:34:56.856451 #3196] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:34:56.876324 #3196] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:34:56.885691 #3196] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:35:33.962642 #8720] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:35:34.061551 #8720] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:35:34.084143 #8720] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:35:34.106017 #8720] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:37:52.776380 #9896] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:37:52.884593 #9896] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:37:52.904600 #9896] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:37:52.938988 #9896] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:38:21.018748 #7284] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:38:21.125850 #7284] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:38:58.442929 #5380] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:38:58.547562 #5380] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:40:00.403061 #1920] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:40:00.523481 #1920] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:40:14.630495 #8936] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:40:14.756142 #8936] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:40:32.160413 #7148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:40:32.293441 #7148] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:41:42.698300 #10580] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:41:42.808623 #10580] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:41:42.827749 #10580] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:42:29.121323 #1680] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:42:29.253980 #1680] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:42:29.277099 #1680] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:42:29.293003 #1680] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:42:44.947601 #3600] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:42:45.088333 #3600] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:42:45.109539 #3600] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:42:45.121561 #3600] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:42:45.130604 #3600] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:43:06.260792 #2248] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:43:06.387558 #2248] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:43:06.403865 #2248] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:43:06.435230 #2248] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:43:06.455248 #2248] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:43:06.470899 #2248] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:44:25.884542 #3980] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:44:26.007734 #3980] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:44:26.039211 #3980] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:44:26.058737 #3980] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:45:03.566733 #4396] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:45:03.676491 #4396] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:45:34.122181 #4860] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:45:34.233953 #4860] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:46:01.007570 #7940] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:46:01.114703 #7940] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:46:01.137920 #7940] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:46:23.477495 #6272] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:46:23.584509 #6272] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:46:45.992052 #6980] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:46:46.106048 #6980] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:46:46.127282 #6980] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:47:01.698607 #3448] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:47:01.810974 #3448] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:47:01.833348 #3448] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:48:01.893269 #7900] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:48:02.002232 #7900] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:48:02.029810 #7900] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:48:02.038380 #7900] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:48:02.068998 #7900] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:48:54.930875 #10852] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:48:55.042183 #10852] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:48:55.064554 #10852] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:48:55.082201 #10852] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:48:55.102841 #10852] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:48:55.117240 #10852] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:51:20.078442 #876] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:51:20.178096 #876] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:51:20.198346 #876] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:51:20.212401 #876] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:51:20.235380 #876] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:51:20.267523 #876] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:51:20.283378 #876] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:52:08.576562 #5212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:52:08.676934 #5212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:52:08.693561 #5212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:52:08.697704 #5212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:52:08.715532 #5212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:52:08.732265 #5212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:52:08.748521 #5212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:52:08.787438 #5212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:52:08.803751 #5212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:19.619568 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:19.756155 #5456] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:19.792196 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:19.810310 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:19.843481 #5456] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:19.861312 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:19.892934 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:19.943535 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:19.981447 #5456] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:19.993738 #5456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:50.437790 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:50.561963 #8376] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:50.593247 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:50.597673 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:50.616822 #8376] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:50.630652 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:50.648630 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:50.670513 #8376] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:50.683481 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:53:50.704525 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:53:50.730978 #8376] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:53:50.746957 #8376] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:05.956075 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:06.058314 #8800] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:06.083117 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:06.102034 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:06.124834 #8800] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:06.139207 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:06.157657 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:06.187822 #8800] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:06.204348 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:06.220636 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:06.268190 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:06.302336 #8800] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:06.318030 #8800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:38.608199 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:38.721728 #1776] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:38.756939 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:38.776143 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:38.808977 #1776] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:38.826871 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:38.846613 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:38.880684 #1776] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:38.893345 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:38.911097 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:38.947717 #1776] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:38.960224 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:56:38.977063 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:56:39.025216 #1776] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:56:39.043312 #1776] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:57:51.398334 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:57:51.512002 #7212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:57:51.533465 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:57:51.550052 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:57:51.571416 #7212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:57:51.583775 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:57:51.602066 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:57:51.639400 #7212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:57:51.654487 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:57:51.684468 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:57:51.729742 #7212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:57:51.733191 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:57:51.739284 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:57:51.784811 #7212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:57:51.801921 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T22:57:51.821234 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T22:57:51.867476 #7212] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T22:57:51.884885 #7212] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:01:29.823715 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:01:30.005947 #956] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:01:30.044550 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:01:30.074696 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:01:30.111117 #956] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:01:30.147414 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:01:30.156132 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:01:30.164597 #956] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:01:30.177607 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:01:30.195120 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:01:30.242177 #956] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:01:30.248394 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:01:30.260942 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:01:30.290596 #956] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:01:30.294010 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:01:30.309932 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:01:30.332317 #956] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:01:30.343993 #956] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:02:10.642602 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:02:10.829499 #696] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:02:10.864651 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:02:10.923694 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:02:10.950412 #696] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:02:10.993384 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:02:10.998115 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:02:11.061604 #696] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:02:11.091019 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:02:11.130107 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:02:11.161959 #696] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:02:11.186178 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:02:11.193590 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:02:11.239923 #696] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:02:11.264535 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:02:11.326089 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:02:11.393339 #696] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:02:11.397827 #696] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:13:30.262628 #8164] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:13:30.402927 #8164] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:13:30.429104 #8164] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:15:37.981819 #1652] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:15:38.102946 #1652] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:15:38.124081 #1652] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:17:01.073058 #6924] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:17:01.193729 #6924] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:17:01.216376 #6924] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:18:08.952333 #1452] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:18:09.054690 #1452] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:18:09.070119 #1452] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:19:21.238890 #1160] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:19:21.377900 #1160] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:19:21.398676 #1160] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:22:46.218177 #2360] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:22:46.368986 #2360] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:22:46.392619 #2360] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:31:35.590344 #1980] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {}
+D, [2020-06-15T23:32:07.830422 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:32:07.939669 #10304] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:32:07.954896 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:32:07.959413 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:32:07.974367 #10304] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:32:07.989809 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:32:08.004741 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:32:08.021639 #10304] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:32:08.033631 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:32:08.040880 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:32:08.056683 #10304] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:32:08.071009 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:32:08.091442 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:32:08.122973 #10304] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:32:08.151594 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:32:08.156820 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:32:08.173419 #10304] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:32:08.186404 #10304] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:33:34.177751 #10496] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {}
+D, [2020-06-15T23:34:53.200993 #7752] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {}
+D, [2020-06-15T23:37:25.779961 #5308] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:37:25.891335 #5308] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:38:17.588266 #2292] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:38:17.691616 #2292] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:38:17.707332 #2292] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:39:50.393892 #4000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:39:50.504465 #4000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:39:50.525685 #4000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:40:32.400201 #8728] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:40:32.510636 #8728] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:40:32.528775 #8728] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:41:04.868943 #3092] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:41:04.996858 #3092] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:41:05.018070 #3092] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:42:36.866184 #340] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:42:36.970076 #340] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:42:36.989579 #340] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:45:55.805399 #10464] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:45:55.911343 #10464] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:45:55.927061 #10464] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:47:21.437335 #5684] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:47:21.556077 #5684] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:47:21.575495 #5684] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:48:50.839458 #8312] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:48:50.961425 #8312] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:48:50.982991 #8312] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:51:04.896375 #9692] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:51:05.010013 #9692] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:51:05.030163 #9692] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:51:26.050824 #6456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:51:26.166205 #6456] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:51:26.193638 #6456] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:52:09.535240 #10944] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:52:09.673108 #10944] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:52:09.693565 #10944] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:54:57.026901 #5108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:54:57.137182 #5108] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:54:57.157106 #5108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:56:04.215827 #5800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:56:04.345097 #5800] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-15T23:56:04.369741 #5800] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-15T23:58:32.495588 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:58:32.612198 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:58:32.637544 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:58:32.670210 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:58:32.703670 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:58:32.737329 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:32.941916 #11148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:33.077230 #11148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:33.113306 #11148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:33.147349 #11148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:33.182451 #11148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:33.219030 #11148] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:59.805078 #984] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-15T23:59:59.935743 #984] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:00.018371 #984] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:00.070140 #984] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:00.118527 #984] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:00.153860 #984] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:30.016240 #10216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:30.143233 #10216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:30.180090 #10216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:30.214174 #10216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:30.246007 #10216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:30.280696 #10216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.530410 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.641735 #3960] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:00:45.657751 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:00:45.669265 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.688264 #3960] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:00:45.692296 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:00:45.708765 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.724360 #3960] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:00:45.740306 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:00:45.751804 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.773730 #3960] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:00:45.791348 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:00:45.807115 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.828096 #3960] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:00:45.840217 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:00:45.852367 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:00:45.872945 #3960] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:00:45.877336 #3960] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:01:14.381145 #2836] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:01:14.495056 #2836] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:01:14.513644 #2836] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:02:17.342632 #9704] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:02:17.455426 #9704] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:02:17.475878 #9704] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:03:04.087752 #8368] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:03:04.197320 #8368] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:03:04.225026 #8368] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:04:41.671592 #1920] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:04:41.794669 #1920] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:04:41.813504 #1920] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:11:16.441882 #7828] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:11:16.577156 #7828] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:11:16.609524 #7828] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:12:48.427439 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:12:48.552920 #2480] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:12:48.580966 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:12:48.611267 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:12:48.651436 #2480] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:12:48.679080 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:12:48.698045 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:12:48.728998 #2480] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:12:48.734435 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:12:48.763628 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:12:48.796009 #2480] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:12:48.809219 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:12:48.814361 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:12:48.846488 #2480] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:12:48.860079 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:12:48.868837 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:12:48.958841 #2480] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:12:48.963387 #2480] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:13:29.980075 #6204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:13:30.131398 #6204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:13:30.155480 #6204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:14:51.072036 #8144] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:14:51.232694 #8144] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:14:51.257138 #8144] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:33:58.770927 #4792] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:33:58.893480 #4792] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:33:58.912322 #4792] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:38:51.636563 #8368] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:38:51.758855 #8368] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:38:51.779622 #8368] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:39:15.128712 #9080] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:39:15.249742 #9080] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:39:15.273045 #9080] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:44:45.115887 #6124] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:44:45.231261 #6124] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:44:45.249453 #6124] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:46:36.623832 #4952] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:46:36.741309 #4952] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:46:36.760046 #4952] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:49:08.136762 #4408] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:49:08.251410 #4408] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:49:08.272167 #4408] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:49:24.250790 #240] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:49:24.366894 #240] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:49:24.385120 #240] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:51:31.107944 #3056] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:51:31.228086 #3056] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:51:31.247778 #3056] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:55:33.393470 #11924] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:55:33.516877 #11924] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:55:33.544335 #11924] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T00:56:03.011747 #11916] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T00:56:03.135706 #11916] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T00:56:03.162301 #11916] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:05:04.131928 #11380] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:05:04.300554 #11380] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:05:04.345298 #11380] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:06:23.803186 #5312] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:06:23.970780 #5312] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:06:24.004008 #5312] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:07:06.768817 #10368] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:07:06.929628 #10368] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:07:06.959693 #10368] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:07:41.238179 #10160] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:07:41.406495 #10160] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:07:41.433860 #10160] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:08:17.067593 #8324] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:08:17.206964 #8324] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:08:17.224768 #8324] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:09:36.226861 #1048] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:09:36.376138 #1048] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:09:36.406915 #1048] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:15:30.370380 #5712] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:15:30.590495 #5712] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:15:30.687597 #5712] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:16:39.751828 #804] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:16:39.911565 #804] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:16:39.962871 #804] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:18:16.060544 #804] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:18:16.212012 #804] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:18:16.234954 #804] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:25:10.848339 #8216] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.332447 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.492453 #2504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:53:15.539071 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:53:15.580741 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.593278 #2504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:53:15.611071 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:53:15.650715 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.660292 #2504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:53:15.678958 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:53:15.698184 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.763257 #2504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:53:15.795549 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:53:15.826503 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.879941 #2504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:53:15.929050 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:53:15.954952 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:53:15.978810 #2504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:53:16.009408 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T01:53:16.040114 #2504] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:53:16.107076 #2504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {}
+D, [2020-06-16T01:56:24.568734 #9504] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:56:24.718741 #9504] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T01:57:03.610115 #8608] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T01:57:03.747055 #8608] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:13.426193 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:13.577192 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:13.597507 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:01:13.617358 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:13.688459 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:13.694155 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:01:13.698499 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:13.746729 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:13.766866 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:01:13.805169 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:13.814177 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:13.831580 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:01:13.868928 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:13.880935 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:13.914206 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:01:13.943153 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:13.987984 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:14.015661 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:01:14.044484 #3628] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T02:01:14.112038 #3628] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:01:14.147763 #3628] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:01:14.188006 #3628] DEBUG -- : REQUESTING PAGE: POST /http://localhost:4567/oneplayer with "namePlayer1=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:04:10.158336 #5392] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:04:10.310712 #5392] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:04:10.332355 #5392] DEBUG -- : REQUESTING PAGE: POST /http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:12:31.928431 #8392] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:12:32.077343 #8392] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:12:59.229218 #1940] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:12:59.407259 #1940] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:14:53.534024 #10072] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:14:53.715757 #10072] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:15:52.896156 #10744] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:15:53.040901 #10744] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:17:57.494422 #10492] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:17:57.635643 #10492] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:24:00.029040 #6944] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:24:00.201187 #6944] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:24:00.249855 #6944] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/game with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:27:29.261738 #3592] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:27:29.450154 #3592] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:28:02.443093 #7644] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:28:02.596144 #7644] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:28:02.642294 #7644] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/oneplayer with "namePlayer1=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:30:47.037348 #8888] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:30:47.371649 #8888] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:31:36.698220 #1804] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:31:36.842659 #1804] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:31:36.889860 #1804] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/oneplayer with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:33:34.136112 #6108] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:33:34.299981 #6108] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:33:34.320805 #6108] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/oneplayer with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:33:34.323572 #6108] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/oneplayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/oneplayer"}
+D, [2020-06-16T02:35:19.218067 #9692] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:35:19.358947 #9692] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:35:19.398703 #9692] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:35:19.402499 #9692] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/oneplayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:35:19.405055 #9692] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/oneplayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/oneplayer"}
+D, [2020-06-16T02:36:34.140187 #11180] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:36:34.297401 #11180] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:36:34.328003 #11180] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:36:34.330934 #11180] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:36:34.343348 #11180] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:45:34.397194 #10004] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:45:34.516905 #10004] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:45:34.544928 #10004] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:45:34.548174 #10004] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:45:34.556802 #10004] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:45:34.564212 #10004] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:45:34.580055 #10004] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:45:34.590989 #10004] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:46:27.811977 #10132] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:46:27.926901 #10132] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:46:27.946517 #10132] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:46:27.955953 #10132] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:46:27.960187 #10132] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:46:27.966520 #10132] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:46:27.984416 #10132] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:46:27.994592 #10132] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:46:27.997137 #10132] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:47:26.996745 #6608] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:47:27.114259 #6608] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:47:27.129438 #6608] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:47:27.137731 #6608] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:47:27.142906 #6608] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:47:27.155765 #6608] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:47:27.173214 #6608] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:47:27.177408 #6608] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:47:27.187454 #6608] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:47:27.192087 #6608] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:51:05.908473 #5112] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:51:06.037500 #5112] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:51:06.060439 #5112] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:51:06.066021 #5112] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:51:06.068630 #5112] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:52:22.791216 #4588] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:52:22.920250 #4588] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:52:22.941442 #4588] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:53:53.587395 #2316] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:53:53.693981 #2316] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:53:53.723514 #2316] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:53:53.726435 #2316] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:53:53.729045 #2316] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:56:18.067694 #8968] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:18.191567 #8968] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:18.213891 #8968] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:18.222519 #8968] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:18.226480 #8968] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:56:18.231593 #8968] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:18.248767 #8968] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:18.262131 #8968] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:18.265544 #8968] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:18.274490 #8968] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:56:53.330143 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:53.440416 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:53.465820 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:53.486142 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:53.526280 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:53.562283 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:53.567464 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:53.612749 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:53.662776 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:53.701294 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:53.747301 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:53.752198 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:53.781861 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:53.831840 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:53.836043 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:53.867178 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:53.940114 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:53.999208 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:54.050284 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:54.085870 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:54.122571 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:54.166627 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:54.176192 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:56:54.219091 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:54.289519 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:54.428410 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:54.433682 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:54.460563 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:56:54.516690 #11332] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T02:56:54.565519 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:54.584641 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:54.615443 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:54.617539 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:54.638923 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:54.658333 #11332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:56:54.713556 #11332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:56:54.734683 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:56:54.751312 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:56:54.766391 #11332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:58:02.312536 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.434422 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.457994 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.463976 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.481859 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.496935 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.510561 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.531752 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.544081 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.556226 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.595001 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.606905 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.610892 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.626672 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.638031 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.644894 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.663967 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.675345 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.692055 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.698659 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.709787 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.713530 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:58:02.723443 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:58:02.728431 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.745046 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.757948 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.760602 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:58:02.771340 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T02:58:02.781044 #5816] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.810796 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.824280 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.828404 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.836551 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:58:02.840721 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:58:02.845559 #5816] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T02:58:02.861741 #5816] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T02:58:02.874846 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T02:58:02.877834 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T02:58:02.887662 #5816] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:02:32.813560 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:32.939030 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:32.953451 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:32.995617 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.004039 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.022804 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.037420 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.069107 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.086054 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.103159 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.229555 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.233524 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.238461 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.271561 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.284619 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.291351 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.336598 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.369187 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.399577 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.436057 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.447040 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.449430 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:02:33.452161 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:02:33.469366 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.502430 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.516822 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.520460 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:02:33.536591 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:02:33.567379 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.586676 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.602384 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.616600 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:02:33.620379 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:02:33.641080 #3204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:02:33.671104 #3204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:02:33.687609 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:02:33.705524 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:02:33.718842 #3204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:08:30.180680 #12252] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:08:30.380648 #12252] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:08:30.460428 #12252] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:08:30.469997 #12252] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:08:30.500186 #12252] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:08:30.533503 #12252] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:08:30.608030 #12252] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:08:30.628162 #12252] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:08:30.631958 #12252] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:08:30.659405 #12252] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:08:30.700205 #12252] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:08:30.761175 #12252] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:09:42.114784 #12204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:09:42.264227 #12204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:09:42.308033 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:09:42.322366 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:09:42.337811 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:09:42.346047 #12204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:09:42.381693 #12204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:09:42.407910 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:09:42.422446 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:09:42.425850 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:09:42.444448 #12204] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:09:42.477739 #12204] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:09:42.491678 #12204] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:10:56.728283 #8888] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:10:56.859045 #8888] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:10:56.881451 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:10:56.885220 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:10:56.896845 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:10:56.916699 #8888] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:10:56.933568 #8888] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:10:56.949755 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:10:56.966076 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:10:56.981225 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:10:56.998961 #8888] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:10:57.033549 #8888] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:10:57.049732 #8888] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:12:11.805376 #3348] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:12:11.954506 #3348] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:12:11.989082 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:12:11.994846 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:12:12.035063 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:12:12.039284 #3348] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:12:12.088094 #3348] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:12:12.091817 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:12:12.107073 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:12:12.135021 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:12:12.139322 #3348] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:12:12.170828 #3348] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:12:12.174860 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:12:12.191220 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:12:12.217697 #3348] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:16:38.059086 #2332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:16:38.215391 #2332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:16:38.237758 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:16:38.250915 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:16:38.265375 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:16:38.287161 #2332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:16:38.338541 #2332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:16:38.365759 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:16:38.382673 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:16:38.399773 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:16:38.426438 #2332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:16:38.466722 #2332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:16:38.484921 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:16:38.500370 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:16:38.520823 #2332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:16:38.550563 #2332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:16:38.592094 #2332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:18:34.693633 #872] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:18:34.822059 #872] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:18:34.847568 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:18:34.857244 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:34.860137 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:34.881942 #872] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:18:34.925409 #872] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:18:34.932565 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:18:34.947378 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:34.961565 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:18:34.977486 #872] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:18:35.013761 #872] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:18:35.027962 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:18:35.043529 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:35.060657 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:35.082924 #872] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:18:35.116405 #872] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:18:35.128265 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:18:35.147394 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:35.161429 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:35.176183 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:35.193299 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:18:35.209826 #872] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:40.025088 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.147203 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.174755 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.188549 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.222664 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.238823 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.256539 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.289662 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.322157 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.338837 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.361166 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.385899 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.403580 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.437462 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.472579 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.483685 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.504346 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.520388 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.570410 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.588884 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.604174 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.608204 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:40.622126 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:19:40.638683 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.672702 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.688401 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.693621 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:40.707720 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:19:40.847439 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.859163 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:40.904935 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:40.908968 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:40.921671 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:40.938351 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:40.978269 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:41.006411 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:41.020330 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.035869 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:19:41.053237 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:41.087083 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:41.103897 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:41.108650 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.122435 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.137961 #3000] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:19:41.161304 #3000] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:19:41.187543 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:19:41.192316 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.204712 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.208332 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.222850 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:19:41.235850 #3000] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:37.438989 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.569814 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:37.583901 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:37.600210 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.650039 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"6", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:37.659965 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:37.664990 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.682492 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"8", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:37.698815 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:37.733401 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.767674 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:37.798436 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/oneplayer with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:37.817035 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.848305 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:37.865687 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:37.882607 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.917654 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:37.936880 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/twoplayers with {} and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:37.993443 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:37.999547 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:38.015527 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:38.029352 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.036128 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:21:38.066317 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:38.105252 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"1"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:38.118623 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:38.133325 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=JUGAR!" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.147266 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:21:38.183361 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:38.229752 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:38.234293 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:38.247084 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.249589 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.283046 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:38.337384 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:38.343384 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "namePlayer1=string" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:38.346652 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.349454 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/onePlayer with "visit'/http://localhost:4567/game'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/onePlayer"}
+D, [2020-06-16T03:21:38.368935 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:38.400127 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"N", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:38.416679 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "field=value" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:38.435079 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.447058 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.466246 #3332] DEBUG -- : REQUESTING PAGE: GET http://localhost:4567/ with {} and HTTP headers {}
+D, [2020-06-16T03:21:38.511423 #3332] DEBUG -- : REQUESTING PAGE: POST /setData with {"difficult"=>"4", "gameMode"=>"C", "players"=>"2"} and HTTP headers {"HTTP_REFERER"=>"http://localhost:4567/"}
+D, [2020-06-16T03:21:38.515202 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/setData"}
+D, [2020-06-16T03:21:38.530373 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.546746 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.552781 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "select color, :from => field" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.565477 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "click_link=Siguiente" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+D, [2020-06-16T03:21:38.580635 #3332] DEBUG -- : REQUESTING PAGE: GET /http://localhost:4567/twoPlayers with "visit'/http://localhost:4567/onePlayer'" and HTTP headers {"HTTP_REFERER"=>"/http://localhost:4567/twoPlayers"}
+=======
 D, [2020-06-15T19:51:02.188080 #6928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2020-06-15T19:51:02.562453 #6928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+>>>>>>> master
