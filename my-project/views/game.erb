@@ -31,7 +31,7 @@
     <h1>Adivinar codigo:</h1>
     <form action="/game" method="post">
       <%if (@@game.getMode()=='N')%>
-        <input type="text" name="code" value="" maxlength=<%=@@game.getDifficult()%>>
+        <input type="text" name="code" onkeyup="this.value = this.value.replace(/[^0-9]/, '')" maxlength=<%=@@game.getDifficult()%>>
         <%if (@@game.getDifficult() == 4)%>
           <p>*Usted debe ingresar un numero de 4 digitos.</p>
         <%end%>
