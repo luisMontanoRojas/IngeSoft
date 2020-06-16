@@ -4,7 +4,7 @@
   <%if (@@game.getMode() == 'N')%>
     <div>
       <h2> Ingresa el codigo secreto: </h2>
-      <input type="text"  name="inputNumber" maxlength=<%=@@game.getDifficult()%>>
+      <input type="password"  name="inputNumber" onkeyup="this.value = this.value.replace(/[^0-9]/, '')" maxlength=<%=@@game.getDifficult()%>>
 
       <%if (@@game.getDifficult() == 4)%>
         <p>*Usted debe ingresar un numero de 4 digitos.</p>
