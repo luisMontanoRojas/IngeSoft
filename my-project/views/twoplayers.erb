@@ -1,6 +1,6 @@
 <form action="/setDataToPlay" method="post">
   <h2>Ingrese el nombre del jugador 2:</h2>
-  <input type="text"  name="namePlayer2">
+  <input type="text"  name="namePlayer2" id="namePlayer2">
   <%if (@@game.getMode() == 'N')%>
     <div>
       <h2> Ingresa el codigo secreto: </h2>
@@ -147,5 +147,5 @@
   </select>
   <br>
   <br>
-  <input type="submit" value="Siguiente">
+  <input type="submit" value="Siguiente" name="2playerNext">
 </form>

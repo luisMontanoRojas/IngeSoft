@@ -17,6 +17,7 @@ class MyWorld
   include Rack::Test::Methods
   include Webrat::Methods
   include Webrat::Matchers
+  include Webrat::Locators
 
   Webrat::Methods.delegate_to_session :response_code, :response_body
 
