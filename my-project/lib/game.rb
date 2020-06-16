@@ -39,11 +39,11 @@ class Game
       @secretCode = @secretCode.to_s
     end
     if(@difficult == 6)
-      @secretCode = 1000 + rand(899999)
+      @secretCode = 100000 + rand(899999)
       @secretCode = @secretCode.to_s
     end
     if(@difficult == 8)
-      @secretCode = 1000 + rand(89999999)
+      @secretCode = 10000000 + rand(89999999)
       @secretCode = @secretCode.to_s
     end
   end
